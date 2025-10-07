@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Chat - 2403A510C1-MiniChat</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="chat-container">
+    <h2>AI Chat Bot</h2>
+    <ul id="messages"></ul>
+    <div class="input-area">
+      <input id="message" placeholder="Type your message..." />
+      <button id="send">Send</button>
+    </div>
+    <a href="/" class="back-btn">← Back</a>
+  </div>
+  <script src="{{ url_for('static', filename='ai.js') }}"></script>
+</body>
+</html>
